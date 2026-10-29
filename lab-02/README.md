@@ -10,9 +10,9 @@
 
 ## Live Link
 
-**Status:** 
+ 
 
-The application currently runs locally at `http://localhost:3000`. It has not been deployed to a public hosting platform yet.
+
 
 ## Objective
 
@@ -43,6 +43,35 @@ The `book` table contains the following columns:
 | pages | INTEGER | Number of pages |
 
 The database was initialized with 10 book records using the SQLite CLI.
+
+## Project Structure
+
+```text
+lab-02/
+├── screenshots/
+│   ├── get-all-books.png
+│   ├── get-book-byID.png
+│   ├── post-book.png
+│   ├── put-book.png
+│   └── delete-book.png
+├── books.db
+├── server.js
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
+```
+
+### File Description
+
+- **`screenshots/`** – Contains screenshots of the API testing results.
+- **`books.db`** – SQLite database containing the book records.
+- **`server.js`** – Express server and the five CRUD API routes.
+- **`package.json`** – Project details, dependencies, and run scripts.
+- **`package-lock.json`** – Records the installed dependency versions.
+- **`README.md`** – Project documentation and setup instructions.
+- **`.gitignore`** – Prevents files such as `node_modules/` and `.env` from being tracked by Git.
+
 
 ## Installation and Setup
 
