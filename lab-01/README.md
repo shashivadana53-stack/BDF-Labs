@@ -107,7 +107,7 @@ Demonstrates the 404 response when an undefined route is accessed.
 
 Displays the 404 Page Not Found response.
 
-![404 route response](screenshots/not-found.png)
+![404 route response](screenshots/notFound.png)
 
 
 ## HTTP Status Codes
