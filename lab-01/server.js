@@ -2,7 +2,7 @@
 const express = require("express");
 
 const app = express();
-const PORT = 3000;
+
 
 // Home route
 app.get("/", (req, res) => {
@@ -30,6 +30,8 @@ app.use((req, res) => {
   res.status(404).send("404 - Page Not Found");
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running on port ${PORT}`);
 });
