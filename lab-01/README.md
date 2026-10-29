@@ -86,28 +86,28 @@ Keep the terminal running while accessing the routes.
 
 Displays the welcome message when the home route is accessed.
 
-<img width="1918" height="1069" alt="home" src="https://github.com/user-attachments/assets/94426ba5-302b-4a5e-af34-be41f899acd0" />
-
+![Home route response](screenshots/home.png)
 
 ### 2. About Route
 
 Displays the response from the About route.
 
-<img width="1918" height="1069" alt="about" src="https://github.com/user-attachments/assets/b928ca5e-c8c0-4385-b49c-7b541665248a" />
-
+![About route response](screenshots/about.png)
 
 ### 3. Time Route
 
 Displays the current date and time.
 
-<img width="1918" height="1075" alt="time" src="https://github.com/user-attachments/assets/8b20c653-c8c2-4b41-bc53-755c9400112a" />
+![Time route response](screenshots/time.png)
 
 
 ### 4. Unknown Route
 
 Demonstrates the 404 response when an undefined route is accessed.
 
-<img width="1918" height="1075" alt="notFound" src="https://github.com/user-attachments/assets/bc581d38-e80b-4474-89c4-a8caa4b57b4a" />
+Displays the 404 Page Not Found response.
+
+![404 route response](screenshots/not-found.png)
 
 
 ## HTTP Status Codes
