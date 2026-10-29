@@ -8,6 +8,10 @@
 - **Course:** Backend Development Fundamentals
 - **Lab Number:** 01
 
+## Live Link
+
+**Deployment URL:
+
 ## Objective
 
 The objective of this lab is to create a basic web server using Node.js and Express.js. The server handles different HTTP GET requests, displays a welcome message
@@ -33,6 +37,7 @@ lab-01/
 │   └── notFound.png
 ├── .gitignore
 ├── package.json
+├── package-lock.json
 ├── server.js
 └── README.md
 ```
@@ -117,6 +122,7 @@ Demonstrates the 404 response when an undefined route is accessed.
 3. **Screenshot Upload Issue:** Some screenshot files were initially empty. New screenshots were captured and uploaded to GitHub.
 4. **README Image Display Issue:** The screenshot paths were checked and corrected so that the images could display properly in the README.
 
+
 ## Learning Outcomes
 
 - Learned how to create and run a Node.js server.
@@ -133,6 +139,3 @@ Demonstrates the 404 response when an undefined route is accessed.
 - The `.gitignore` file is used to exclude unnecessary files such as `node_modules/` and `.env`.
 - The `node_modules/` directory should not be uploaded to GitHub.
 
-## Conclusion
-
-This lab helped me understand the basics of Node.js and Express.js. I learned how to create a server, handle different routes, return appropriate HTTP status codes, test the application in a browser, and document the project using GitHub and Markdown.
