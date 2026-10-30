@@ -10,9 +10,19 @@
 
 ## Live Link
 
- 
+Deployment URL: https://bdf-labs-02.onrender.com
 
+## Endpoints:
 
+**GET /books/** — Retrieve all books
+
+**GET /books/:bookId/** — Retrieve a book by ID
+
+**POST /books/** — Add a new book
+
+**PUT /books/:bookId/** — Update an existing book
+
+**DELETE /books/:bookId/** — Delete a book
 
 ## Objective
 
@@ -59,7 +69,8 @@ lab-02/
 ├── package.json
 ├── package-lock.json
 ├── README.md
-└── .gitignore
+├──.gitignore
+└──init.sql
 ```
 
 ### File Description
@@ -152,7 +163,8 @@ Deletes an existing book from the database.
 
 All five API endpoints were tested locally.
 
-- GET requests successfully retrieved book records.
+- GET requests successfully retrieved all books.
+- GET requests successfully retrieved book by bookID.
 - POST successfully added a new book.
 - PUT successfully updated the book details.
 - DELETE successfully removed the book.
