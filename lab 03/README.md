@@ -107,7 +107,7 @@ The server runs on port 3000 by default.
 ![Delete Book](screenshots/delete-book.png)
 
 ### 12. Not Found Error
-![Not Found](screenshots/deleted-book-404.png)
+![Not Found](screenshots/not-found-book-404.png)
 
 ## Problems Faced and Solutions
 
